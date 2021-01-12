@@ -22,7 +22,7 @@ const Home: NextPage = () => {
         </p>
 
         <p>
-          Built using <a href="https://www.slicemachine.dev/">SliceMachine</a>{" "}
+          Built using <a href="https://www.slicemachine.dev">SliceMachine</a>{" "}
           from <a href="https://prismic.io">Prismic.io</a>
         </p>
       </main>
