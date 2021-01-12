@@ -1,7 +1,6 @@
-import * as Src/slices from './src/slices'
 import { Slices as EssentialSlices } from 'essential-slices'
 
-const __allSlices = {  ...EssentialSlices, ...Src/slices, }
+const __allSlices = {  ...EssentialSlices, }
 
 const NotFound = ({ sliceName }) => {
 	console.log(`[sm - resolver] component "${sliceName}" not found.`)
