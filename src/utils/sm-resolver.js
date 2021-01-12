@@ -1,4 +1,4 @@
-import * as Slices from "../slices";
+import * as Slices from "@slices/index";
 import { Slices as EssentialSlices } from "essential-slices";
 
 const __allSlices = { ...EssentialSlices, ...Slices };
