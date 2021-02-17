@@ -3,29 +3,31 @@
   "type": "SharedSlice",
   "name": "PlayerProfile",
   "description": "PlayerProfile",
-  "variations": [{
-    "id": "default-slice",
-    "name": "Default slice",
-    "docURL": "...",
-    "version": "sktwi1xtmkfgx8626",
-    "description": "PlayerProfile",
-    "primary": {
-      "title": {
-        "type": "StructuredText",
-        "config": {
-          "single": "heading1",
-          "label": "Title",
-          "placeholder": "This is where it all begins..."
-        }
-      },
-      "description": {
-        "type": "StructuredText",
-        "config": {
-          "single": "paragraph",
-          "label": "Description",
-          "placeholder": "A nice description of your feature"
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PlayerProfile",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "single": "heading1",
+            "label": "Player Profile",
+            "placeholder": "Player Name"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "single": "paragraph",
+            "label": "Player profile and biography",
+            "placeholder": "Here you can provide details about player's life and career."
+          }
         }
       }
     }
-  }]
+  ]
 }
